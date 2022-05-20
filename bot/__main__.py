@@ -13,10 +13,10 @@ def start(update, context):
         if update.message.chat.type == "private":
             sendMessage("<b>Access granted</b>", context.bot, update)
         else:
-            sendMessage("<b>I'm alive :)</b>", context.bot, update)
+            sendMessage("<b>I'am an powerful Gdrive Uploader bot Type /{BotCommands.HelpCommand to get list of available commands Enjoy!!🥰:)</b>", context.bot, update)
         LOGGER.info('Granted: {} [{}]'.format(update.message.from_user.first_name, update.message.from_user.id))
     else:
-        sendMessage("<b>Access denied</b>", context.bot, update)
+        sendMessage("<b>Sorry You Can't Use Me 😂!!</b>", context.bot, update)
         LOGGER.info('Denied: {} [{}]'.format(update.message.from_user.first_name, update.message.from_user.id))
 
 def ping(update, context):
