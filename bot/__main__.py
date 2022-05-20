@@ -45,17 +45,7 @@ For <i>file</i> results only:
 
 /{BotCommands.CountCommand} [drive_url]: Count data of Drive
 
-/{BotCommands.PermissionCommand} [drive_url] [email]: Set data permission of Drive (Email optional & Only owner)
-
 /{BotCommands.DeleteCommand} [drive_url]: Delete data from Drive (Only owner)
-
-/{BotCommands.AuthorizeCommand}: Authorize an user or a chat for using the bot (Only owner)
-
-/{BotCommands.UnauthorizeCommand}: Unauthorize an user or a chat for using the bot (Only owner)
-
-/{BotCommands.UsersCommand}: View authorized chats (Only owner)
-
-/{BotCommands.ShellCommand} [cmd]: Execute bash commands (Only owner)
 
 /{BotCommands.PingCommand}: Ping the bot
 
